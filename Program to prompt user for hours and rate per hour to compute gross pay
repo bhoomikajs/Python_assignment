@@ -1,9 +1,0 @@
-#Program to prompt user for hours and rate per hour to compute gross pay
-#Enter hours:35
-#Enter Rate:2.75
-#Pay:96.25
-
-hours=float(input('Enter the hours :\n'))
-rate=float(input('Enter the rate :\n'))
-pay=rate*hours
-print('Amount to be paid=',pay)
