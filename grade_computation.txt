@@ -1,0 +1,18 @@
+#grade computation using score entered
+  
+score=input("Please type a score between 0.0 and 1.0:\n")
+try:
+  def grade_computation():
+    if float(score) >= 0.9 and float(score) < 1.0:
+      print("A. Perfect Score")
+    elif float(score) >= 0.8 and float(score) < 0.9:
+      print("B")
+    elif float(score) >= 0.7 and float(score) < 0.8:
+      print("C")
+    elif float(score) >= 0.6 and float(score) < 0.7:
+      print("D")
+    elif float(score) >=0.0 and float(score) < 0.6:
+      print("F. Bad Score")
+  grade_computation()
+except: 
+    print("Invalid score.  Please enter the score correctly.")
