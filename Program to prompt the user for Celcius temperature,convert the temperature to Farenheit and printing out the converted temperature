@@ -1,6 +1,0 @@
-#Program to prompt the user for Celcius temperature,convert the temperature to Farenheit and printing out the converted temperature
-
-
-celsius = float(input('Enter degrees in Celsius:\n'))
-fahrenheit = float(celsius * 9/5 + 32)
-print (celsius, ('degrees Celsius equals'), fahrenheit, ('degrees Fahrenheit'))
