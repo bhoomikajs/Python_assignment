@@ -1,0 +1,5 @@
+#Program that uses input to promote a user for their name and then welcomes them.
+
+
+name=input("Enter your name:\n")
+print('Hello',name,'Welcome to python Programming\n')
