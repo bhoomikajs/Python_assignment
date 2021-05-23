@@ -1,0 +1,12 @@
+#Encapsulate this code in a function named counter and generalize it so that it accepts the string and the letter as arguments.
+
+def counter(s, l):
+  string = str(s)
+  letter = str(l)
+  count = 0
+  for thing in string: 
+    if thing == letter :
+      count = count + 1
+  print(count)
+counter ('bhoomika', 'o')
+counter ('electronics_and_communication', 'c')
